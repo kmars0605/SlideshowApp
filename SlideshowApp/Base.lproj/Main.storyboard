@@ -33,8 +33,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="761-D7-SkM">
-                                <rect key="frame" x="272.5" y="473" width="66" height="30"/>
-                                <state key="normal" title="再生/停止"/>
+                                <rect key="frame" x="272.5" y="473" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="slideshowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jnO-5T-Rlz"/>
                                 </connections>
@@ -66,6 +66,7 @@
                         <outlet property="back" destination="qjx-OX-gxK" id="xOB-9o-f4z"/>
                         <outlet property="forward" destination="hV5-je-kTM" id="S8a-c9-qFm"/>
                         <outlet property="picture" destination="xgy-5s-pWh" id="XnY-et-STd"/>
+                        <outlet property="slideshowButton" destination="761-D7-SkM" id="ymr-NK-jh8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
